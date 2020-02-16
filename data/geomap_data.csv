@@ -1,19 +1,19 @@
 category,continent,name,dir
-country,North America,USA,/images/usa.jpg
-country,North America,Canada,/images/canada.jpg
-country,Central America,The Bahamas,/images/thebahamas.jpg
-country,Asia,South Korea,/images/southkorea.jpg
-country,Asia,Japan,/images/japan.jpg
-country,Asia,China,/images/china.jpg
-country,Asia,Malaysia,/images/malaysia.jpg
-country,Europe,Czech Republic,/images/czechrepublic.jpg
-country,Europe,France,/images/france.jpg
-state,West,Texas,/images/texas.jpg
-state,East,Virginia,/images/virginia.jpg
-state,East,Washington D.C.,/images/washingtondc.jpg
-state,East,New York,/images/newyork.jpg
-state,West,California,/images/california.jpg
-state,West,Colorado,/images/colorado.jpg
-state,West,New Mexico,/images/newmexico.jpg
-state,West,Hawaii,/images/hawaii.jpg
-state,East,Massachusetts,/images/massachusetts.jpg
+country,North America,USA,https://github.com/aybcho/map-your-travels/blob/master/images/usa.jpg
+country,North America,Canada,https://github.com/aybcho/map-your-travels/blob/master/images/canada.jpg
+country,Central America,The Bahamas,https://github.com/aybcho/map-your-travels/blob/master/images/thebahamas.jpg
+country,Asia,South Korea,https://github.com/aybcho/map-your-travels/blob/master/images/southkorea.jpg
+country,Asia,Japan,https://github.com/aybcho/map-your-travels/blob/master/images/japan.jpg
+country,Asia,China,https://github.com/aybcho/map-your-travels/blob/master/images/china.jpg
+country,Asia,Malaysia,https://github.com/aybcho/map-your-travels/blob/master/images/malaysia.jpg
+country,Europe,Czech Republic,https://github.com/aybcho/map-your-travels/blob/master/images/czechrepublic.jpg
+country,Europe,France,https://github.com/aybcho/map-your-travels/blob/master/images/france.jpg
+state,West,Texas,https://github.com/aybcho/map-your-travels/blob/master/images/texas.jpg
+state,East,Virginia,https://github.com/aybcho/map-your-travels/blob/master/images/virginia.jpg
+state,East,Washington D.C.,https://github.com/aybcho/map-your-travels/blob/master/images/washingtondc.jpg
+state,East,New York,https://github.com/aybcho/map-your-travels/blob/master/images/newyork.jpg
+state,West,California,https://github.com/aybcho/map-your-travels/blob/master/images/california.jpg
+state,West,Colorado,https://github.com/aybcho/map-your-travels/blob/master/images/colorado.jpg
+state,West,New Mexico,https://github.com/aybcho/map-your-travels/blob/master/images/newmexico.jpg
+state,West,Hawaii,https://github.com/aybcho/map-your-travels/blob/master/images/hawaii.jpg
+state,East,Massachusetts,https://github.com/aybcho/map-your-travels/blob/master/images/massachusetts.jpg
