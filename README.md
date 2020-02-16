@@ -1,7 +1,7 @@
 # Map Your Travels: Interactive map visualization using D3.js
 
 ### Background
-This is an interactive map visualization that was created to visualize the places visited by the user around the world, which could be useful in keeping track of the various places that have been traveled or sharing photos and memories that were captured during those travels with others. This was inspired by the [the Scrach Off Map of the World](https://www.amazon.com/s?k=scratch+off+map+of+the+world&pldnSite=1&ref=nb_sb_noss_2 "https://www.amazon.com/s?k=scratch+off+map+of+the+world&pldnSite=1&ref=nb_sb_noss_2") available on Amazon. 
+This is an interactive map visualization that was created to visualize the places visited by people around the world, which could be useful in keeping track of the various places that have been traveled or sharing photos and memories that were captured during those times with others. This was inspired by the [the Scrach Off Map of the World](https://www.amazon.com/s?k=scratch+off+map+of+the+world&pldnSite=1&ref=nb_sb_noss_2 "https://www.amazon.com/s?k=scratch+off+map+of+the+world&pldnSite=1&ref=nb_sb_noss_2") available on Amazon. 
 
 This implementation was built based on
 [world map example in D3](http://bl.ocks.org/micahstubbs/8e15870eb432a21f0bc4d3d527b2d14f "http://bl.ocks.org/micahstubbs/8e15870eb432a21f0bc4d3d527b2d14f") by Micah Stubbs
@@ -25,7 +25,8 @@ The **continent** column must indicate the continent that the country that was v
 
 The **name** column should include the name of the place that was visited, and the name **must** match the name of the location provided either in **us_states.csv** or **world_countries.json** included in **/data/d3_map_data**.
 
-The **dir** column should list the path where the images of each of the places that were visited. The images are displayed as a tooltip when the countries or states are hovered using a mouse. 
+The **dir** column should list the path where the images of each of the places that were visited. The images are displayed as a tooltip when the countries or states are hovered using a mouse. All of the images in **/images** are pictures that I have taken during my travels. Please feel free to use those pictures as well with attribution of source.
+
 
 
 
