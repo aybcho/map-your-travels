@@ -1,0 +1,128 @@
+body{
+  padding: 0px 100px 0px 100px;
+  background-color: #1d3030;
+  /* background-color: #264040; */
+  color: #fafafa;
+  /* background-color: #fafafa; */
+  /* color: #1d3030; */
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* About Geomap css */
+#aboutGeomapCountriesContainer{
+  display: block;
+}
+#aboutGeomapHeader{
+  margin: 0;
+  width: 100%;
+}
+#geomapToggleButtonsContainer{
+  display: block;
+  float: center;
+  width: 150px;
+  height: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.geomapToggleButton{
+  width: 70px;
+  vertical-align: middle;
+}
+label .geomapToggleButton .active{
+  background-color: white;
+}
+
+.geomapText{
+  display:block;
+  padding: 0px 4px 0px 4px;
+  width: 100%;
+  background-color: rgba(29, 48, 48, 0.9);
+  border-radius: 4px 4px 0px 0px;
+}
+.geomapImage{
+  position: absolute;
+  width: 400px;
+  height: auto;
+  border-radius: 0px 4px 4px 4px;
+  opacity: 0.97;
+  /* border-radius: 5px;
+  top: 10px;
+  left: 0px; */
+
+
+}
+
+.geomapStatesBorder {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+/* Footer css */
+#footerIcons a:hover{
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+
+
+hr {
+  margin-top: 0rem;
+  border-color: #fafafa;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
