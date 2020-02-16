@@ -15,10 +15,12 @@
 }
 #geomapHeading{
   color: #dfecec;
+  margin-bottom: 0;
 }
 #geomapSubHeading{
   color: #dfecec;
   font-weight: lighter;
+  margin-top: 0.8rem;
 }
 .geomapToggleButtonsContainer {
   clear: both;
