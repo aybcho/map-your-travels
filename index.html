@@ -6,41 +6,35 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Custom styles for this template -->
-    <link href="./css/styles.css" rel="stylesheet">
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Loading D3.js, jQuery, D3-tip for tooltips, D3 GeoMap Data -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <!-- <script src="./js/popper.min.js"></script> -->
-    <!-- <script src="../js/bootstrap.min.js async"></script> -->
-    <!-- <script src="./js/holder.min.js"></script> -->
-    <script src="./js/d3-tip.js"></script>
-    <script src="./js/topojson.v2.min.js"></script>
+    <script src="./lib/d3-tip.js"></script>
+    <script src="./data/d3_map_data/topojson.v2.min.js"></script>
 
-    <!-- Page Rendering js files -->
-    <script src="./js/geomapCountry.js" async></script>
-    <script src="./js/geomapStates.js" async></script>
+    <!-- Custom JS Files -->
+    <script src="./js/geomapWorld.js" async></script>
+    <script src="./js/geomapUS.js" async></script>
+    <script src="./js/geomap.js" async></script>
+
+    <!-- Custom CSS Files -->
+    <link href="./css/styles.css" rel="stylesheet">
   </head>
 
   <body>
-      <div class="" id="aboutGeomapHeader">
-        <p class="aboutTextSubHeading" id="aboutGeomapHeading" style="padding-left: 0.3rem; margin-bottom: 0.3rem;"> Places I've been to </p>
-        <div id="geomapToggleButtonsContainer" class="btn-group btn-group-toggle" data-toggle="buttons">
-          <label class="btn btn-secondary geomapToggleButton active" id="geomapWorldToggle" >
-            <input type="radio" name="options" autocomplete="off" checked> World
-          </label>
-          <label class="btn btn-secondary geomapToggleButton"  id="geomapStatesToggle">
-            <input type="radio" name="options" autocomplete="off" checked> US
-          </label>
+    <div id="geomapContainer">
+      <div id="geomapHeader">
+        <h1 id="geomapHeading">Map your travels</h1>
+        <h3 id="geomapSubHeading">A visualization of the places you've visited around the world</h3>
+        <div class="geomapToggleButtonsContainer" data-toggle="buttons">
+          <input class="geomapToggleButton" id="geomapWorldToggle" type="radio" name="options"/>
+          <label class="geomapToggleButtonLabel" for="geomapWorldToggle" geomap="world">World</label>
+          <input class="geomapToggleButton" id="geomapStatesToggle" type="radio" name="options"/>
+          <label class="geomapToggleButtonLabel" for="geomapStatesToggle" geomap="states">US</label>
         </div>
       </div>
-
-      <div class="mx-auto my-3" id="aboutGeomapContainer">
+      <div id="geomapBody">
       </div>
     </div>
-
-
-
-
   </body>
 </html>
