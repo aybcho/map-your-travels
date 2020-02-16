@@ -13,10 +13,11 @@ Please feel free to use at will with attribution of source.
 ### Demo
 
 For a working demo of this repo, check out https://aybcho.github.io/map-your-travels/.
-[![alt text](https://github.com/aybcho/interactive-image-treemap/blob/master/images/treemap.png "main image")](https://aybcho.github.io/interactive-image-treemap/) 
+[![alt text](https://github.com/aybcho/map-your-travels/blob/master/images/markdown/main.PNG "main image")](https://github.com/aybcho/map-your-travels/blob/master/images/markdown/main.PNG) 
 
 ### How to use
-After cloning this repo, the index.html file will need to be run on a server due to the map data files (csv, json) that are used for the visualization. There's a csv file called **geomap_data.csv** inside **/data** that can be used to list the countries and states that have been visited. The file can be edited using any spreadsheet program such as Microsoft Excel or Google Sheets. [![alt text](https://github.com/aybcho/interactive-image-treemap/blob/master/images/treemap.png "sample data")](https://aybcho.github.io/interactive-image-treemap/) 
+After cloning this repo, the index.html file will need to be run on a server due to the map data files (csv, json) that are used for the visualization. There's a csv file called **geomap_data.csv** inside **/data** that can be used to list the countries and states that have been visited. The file can be edited using any spreadsheet program such as Microsoft Excel or Google Sheets. [![alt text](https://github.com/aybcho/map-your-travels/blob/master/images/markdown/data.PNG "sample data")](https://github.com/aybcho/map-your-travels/blob/master/images/markdown/data.PNG) 
+
 The **category** column can hold two values (country or state) which determines whether this entry of data is placed in the visualization of the world or the visualization of the US. 
 
 The **continent** column must indicate the continent that the country that was visited belongs to, or the region (East or West) that the state within the US belongs to.
