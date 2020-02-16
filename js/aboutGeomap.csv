@@ -1,0 +1,25 @@
+category,continent,name,dir
+country,North America,USA,../images/about/geomap/usa.jpeg
+country,North America,Canada,../images/about/geomap/canada.jpg
+country,Central America,Mexico,../images/about/geomap/mexico.jpg
+country,Central America,The Bahamas,../images/about/geomap/thebahamas.jpeg
+country,Asia,South Korea,../images/about/geomap/southkorea.jpg
+country,Asia,Japan,../images/about/geomap/japan.jpg
+country,Asia,China,../images/about/geomap/china.jpg
+country,Asia,Malaysia,../images/about/geomap/malaysia.jpg
+country,Asia,Indonesia,../images/about/geomap/indonesia.jpg
+country,Europe,Czech Republic,../images/about/geomap/czechrepublic.jpg
+country,Europe,France,../images/about/geomap/france.jpg
+state,West,Texas,../images/about/geomap/texas.jpg
+state,East,Virginia,../images/about/geomap/virginia.jpg
+state,East,Washington D.C.,../images/about/geomap/washingtondc.jpg
+state,East,New York,../images/about/geomap/newyork.jpg
+state,East,Florida,../images/about/geomap/florida.jpg
+state,West,California,../images/about/geomap/california.jpg
+state,West,Colorado,../images/about/geomap/colorado.jpg
+state,West,New Mexico,../images/about/geomap/newmexico.jpg
+state,East,Indiana,../images/about/geomap/indiana.jpg
+state,East,Illinois,../images/about/geomap/illinois.jpg
+state,West,Hawaii,../images/about/geomap/hawaii.jpg
+state,East,North Carolina,../images/about/geomap/northcarolina.jpg
+state,East,Massachusetts,../images/about/geomap/massachusetts.jpg
