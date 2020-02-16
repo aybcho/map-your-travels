@@ -17,7 +17,9 @@ For a working demo of this repo, check out https://aybcho.github.io/map-your-tra
 [![alt text](https://github.com/aybcho/map-your-travels/blob/master/images/markdown/main.PNG "main image")](https://aybcho.github.io/map-your-travels/) 
 
 ### How to use
-After cloning this repo, the index.html file will need to be run on a server due to the map data files (csv, json) that are used for the visualization. There's a csv file called **geomap_data.csv** inside **/data** that can be used to list the countries and states that have been visited. The file can be edited using any spreadsheet program such as Microsoft Excel or Google Sheets. ![alt text](https://github.com/aybcho/map-your-travels/blob/master/images/markdown/sample_data.PNG "sample data")
+After cloning this repo, the index.html file will need to be run on a server due to the map data files (csv, json) that are used for the visualization. There's a csv file called **geomap_data.csv** inside **/data** that can be used to list the countries and states that have been visited. The file can be edited using any spreadsheet program such as Microsoft Excel or Google Sheets. 
+
+![alt text](https://github.com/aybcho/map-your-travels/blob/master/images/markdown/sample_data.PNG "sample data")
 
 The **category** column can hold two values (country or state) which determines whether this entry of data is placed in the visualization of the world or the visualization of the US. 
 
